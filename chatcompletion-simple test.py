@@ -1,5 +1,10 @@
 import openai
 
+# 여기서 "your_openai_api_key"를 실제 OpenAI API 키로 교체
+OPENAI_API_KEY = "your_openai_api_key"
+
+# OpenAI API 키를 전역 환경변수로 설정
+openai.api_key = OPENAI_API_KEY
 
 # 대화 시작
 def start_chat():
